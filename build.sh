@@ -1,6 +1,6 @@
 echo "Installing shairport-sync dependencies"
-apt-get update
-apt-get install -y build-essential git xmltoman autoconf automake libtool libdaemon-dev libpopt-dev libconfig-dev libasound2-dev avahi-daemon libavahi-client-dev libssl-dev libsoxr-dev checkinstall
+sudo apt-get update
+sudo apt-get install -y build-essential git xmltoman autoconf automake libtool libdaemon-dev libpopt-dev libconfig-dev libasound2-dev avahi-daemon libavahi-client-dev libssl-dev libsoxr-dev checkinstall
 
 echo "Configuring shairport-sync"
 autoreconf -fi
